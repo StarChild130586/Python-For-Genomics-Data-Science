@@ -29,3 +29,16 @@ close(f)
 
 for name,seq in seqs.items():
    print(name,seq)
+
+
+Interfacing	With	External	Programs	
+(cont’d)	
+Use	the	call()	function	in	the	subprocess	module	to	run	an	
+external	program:	
+>>> import subprocess
+>>> subprocess.call(["ls"
+, "-l"]) 
+
+A	more	realistic	call:	
+>>> subprocess.call([“tophat”,”genome_mouse_idx”,” PE_reads_1.fq.gz”,”PE_reads_2.fq.gz”])
+ 
