@@ -26,3 +26,6 @@ for line in f:
     # sequence, not header
       seqs[name] = seqs[name] + line
 close(f)
+
+for name,seq in seqs.items():
+   print(name,seq)
