@@ -1,0 +1,13 @@
+FASTA	@ile:	
+>id1 description of id1
+ATGTGTGTCCGTTGTGTAA
+AGTGTGTCcccgtgttATg
+gtagatttttga
+>id2 description of id2
+ccccagtggggagtagggc
+AAAcgtatAA
+
+try:
+   f = open("myfile.fa”)
+except IOError:
+   print("File myfile.fa does not exist!!")
